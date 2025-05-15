@@ -12,7 +12,7 @@
     "id",
     "game"
   ],
-  "author": "Topupku",
+  "author": "WeJizy",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
