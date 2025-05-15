@@ -26,8 +26,8 @@ app.get('/api', (req, res) => {
    });
 
    return res.json({
-      name: 'Cek Data Game',
-      author: 'KITADIGITAL',
+      name: 'Cek Data Game WeJizy',
+      author: 'WeJizy',
       data: _.orderBy(newDataGame, ['name'], ['asc']),
    });
 });
