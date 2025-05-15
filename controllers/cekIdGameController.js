@@ -44,6 +44,7 @@ const cekIdGameController = async (req, res) => {
                   username: data.data?.gameDetail?.userName,
                   user_id: id,
                   zone: zone || null,
+                  Autohor: WeJizy,
                },
             });
          } else {
