@@ -22,6 +22,7 @@ app.get('/api', (req, res) => {
          query: `?id=xxxx${item.isZone ? '&zone=xxx' : ''}`,
          hasZoneId: item.isZone ? true : false,
          listZoneId: item.dropdown ? `/api/game/get-zone/${item.slug}` : null,
+         Autohor: `WeJizy`,
       };
    });
 
@@ -36,7 +37,7 @@ app.get('/api/game/:game', cekIdGameController);
 app.get('/api/game/get-zone/:game', getZoneController);
 
 app.get('/*', (req, res) => {
-   res.status(404).json({ error: 'Not Found' });
+   res.status(404).json({ error: 'Beli Scrap Cet Aja Boss WeJizy' });
 });
 
 app.listen(port, () => {
