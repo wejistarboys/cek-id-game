@@ -44,7 +44,7 @@ const cekIdGameController = async (req, res) => {
                   username: data.data?.gameDetail?.userName,
                   user_id: id,
                   zone: zone || null,
-                  Autohor: 'WeJizy',
+                  Author : WeJizy,
                },
             });
          } else {
@@ -109,7 +109,7 @@ const cekIdGameController = async (req, res) => {
                   username: newResult?.username || getUsernameGameResponse?.confirmationFields?.playerName ||getUsernameGameResponse?.confirmationFields?.roles[0]?.role || null,
                   user_id: id,
                   zone: zone || null,
-                  Autohor: 'WeJizy',
+                  Author : WeJizy,
                },
             });
          }
@@ -178,7 +178,7 @@ const cekIdGameController = async (req, res) => {
          return res.status(500).json({ status: false, message: 'Internal Server Error' });
       }
    }
-   return res.status(500).json({ status: false, message: 'Cek ID Game Error, Hubungi admin' });
+   return res.status(500).json({ status: false, message: 'Cek ID Game Error, Hubungi t.me/wej1x' });
 };
 
 const formatedDate = () => {
