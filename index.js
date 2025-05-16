@@ -22,7 +22,7 @@ app.get('/api', (req, res) => {
          query: `?id=xxxx${item.isZone ? '&zone=xxx' : ''}`,
          hasZoneId: item.isZone ? true : false,
          listZoneId: item.dropdown ? `/api/game/get-zone/${item.slug}` : null,
-         Autohor: `WeJizy`,
+         Author : WeJizy,
       };
    });
 
