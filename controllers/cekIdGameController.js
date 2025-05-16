@@ -44,7 +44,7 @@ const cekIdGameController = async (req, res) => {
                   username: data.data?.gameDetail?.userName,
                   user_id: id,
                   zone: zone || null,
-                  Author : 'WeJizy',
+                  Author: WeJizy,
                },
             });
          } else {
@@ -109,7 +109,7 @@ const cekIdGameController = async (req, res) => {
                   username: newResult?.username || getUsernameGameResponse?.confirmationFields?.playerName ||getUsernameGameResponse?.confirmationFields?.roles[0]?.role || null,
                   user_id: id,
                   zone: zone || null,
-                  Author : 'WeJizy',
+                  Author: WeJizy,
                },
             });
          }
